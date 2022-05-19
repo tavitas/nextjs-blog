@@ -33,10 +33,6 @@ export default function Home({ allPostsData }) {
           </a>
           .
         </p>
-        <p>
-          This page is statically generated on build by default since we are not
-          fetching any external data from an API or file system or database.
-        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
